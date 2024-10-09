@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color: darkolivegreen;
+    color:white;
+    font-family: "Brush Script MT" , cursive;
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    background-color: rgb(67, 128, 67);
+    border-radius: 30px;
+    margin-top: 45px;
+    border: green solid;
+
+
+}
+button{
+    background-color: palegreen;
+    border: chartreuse solid;
+    font-size: 25px;
+    border: 30px;
+    font-family: "Brush Script MT" , cursive;
+    padding: 0 20px;
+}
+button:hover{
+    background-color: lawngreen;
+}
+.userControl{
+    display: flex;
+    justify-content: space-around;
+}
+.container>p{
+    margin: 0;
+}
+h1{
+    color: rgb(153, 210, 30);
+}
